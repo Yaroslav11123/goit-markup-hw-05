@@ -472,9 +472,28 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-wrap">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form" name="footer-form">
+            <label for=""></label>
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn-close" type="button">
           <svg class="modal-top-icon" width="8" height="8">
@@ -548,9 +567,9 @@
                   <use href="./images/icons.svg#icon-Vector-1"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the</label
-            >
-            <a class="form-checkbox-link" href="">Privacy Policy</a>
+              I accept the terms and conditions of the
+              <a class="form-checkbox-link" href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="form-checkbox-btn" type="submit">Send</button>
         </form>
